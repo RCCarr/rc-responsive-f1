@@ -112,6 +112,16 @@ main h3 {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+  align-items: center;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .card h4 {
   font-weight: 700px;
   font-size: 24px;
@@ -140,7 +150,7 @@ main h3 {
   max-width: 100%;
 }
 .image-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -226,5 +236,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }

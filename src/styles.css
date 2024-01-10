@@ -20,14 +20,22 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
-
-.image-5 {
-  max-width: 100%;
+.grid-3-equal-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 header {
@@ -99,6 +107,43 @@ main h3 {
   margin: 0;
 }
 
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card h4 {
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  color: #272044;
+}
+
+.card h5 {
+  font-weight: 700px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+  line-height: 1;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 20px;
+}
+.image-5 {
+  max-width: 100%;
+}
+.image-responsive {
+  max-width: 100%;
+  display: block;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -106,6 +151,20 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+
+.btn {
+  display: block;
+  background: black;
+  color: white;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
 }
 
 footer {
